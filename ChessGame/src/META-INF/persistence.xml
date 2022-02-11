@@ -5,10 +5,10 @@
     <class>hr.markic.models.Person</class>
     <class>hr.markic.models.ChessGame</class>
     <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://pppk-markic.database.windows.net:1433;databaseName=People;database=People;user=sas@pppk-markic;password=Pa$$w0rd;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;"/>
-      <property name="javax.persistence.jdbc.user" value="sas"/>
-      <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
-      <property name="javax.persistence.jdbc.password" value="Pa$$w0rd"/>
+      <property name="javax.persistence.jdbc.url" value="url"/>
+      <property name="javax.persistence.jdbc.user" value="user"/>
+      <property name="javax.persistence.jdbc.driver" value="driver"/>
+      <property name="javax.persistence.jdbc.password" value="password"/>
     </properties>
   </persistence-unit>
 </persistence>
