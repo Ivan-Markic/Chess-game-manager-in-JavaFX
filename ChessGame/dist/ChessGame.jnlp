@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ChessGame.jnlp">
+  <information>
+    <title>ChessGame</title>
+    <vendor>ivanm</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ChessGame.jar" size="41275" download="eager" />
+    <jar href="lib\jandex-2.0.5.Final.jar" size="187548" download="eager" />
+    <jar href="lib\javax.persistence-2.2.1.jar" size="203426" download="eager" />
+    <jar href="lib\mssql-jdbc-7.0.0.jre8.jar" size="1166240" download="eager" />
+    <jar href="lib\org.eclipse.persistence.antlr-2.7.7.jar" size="147580" download="eager" />
+    <jar href="lib\org.eclipse.persistence.asm-2.7.7.jar" size="487709" download="eager" />
+    <jar href="lib\org.eclipse.persistence.core-2.7.7.jar" size="5188750" download="eager" />
+    <jar href="lib\org.eclipse.persistence.jpa-2.7.7.jar" size="1409185" download="eager" />
+    <jar href="lib\org.eclipse.persistence.jpa.jpql-2.7.7.jar" size="1332996" download="eager" />
+    <jar href="lib\org.eclipse.persistence.moxy-2.7.7.jar" size="621183" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="hr.markic.ChessGameApplication"  name="ChessGame" />
+  <update check="always"/>
+</jnlp>
